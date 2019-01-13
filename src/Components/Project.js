@@ -52,14 +52,16 @@ function Project({title, githubURI, skills, link}) {
                         {/* Yakssok -> 안드로이드, iOS 다운링크 걸어주기. iOS 는 다운불가.. */}
                         {title === "Yakssok" && 
                             <li className="Project__Title__li">
-                                <a href="#" onClick={() => {alert('준비중입니다.');}}>
+                                {/* <a href="#" onClick={() => {alert('준비중입니다.');}}> */}
+                                <a href="https://github.com/ccc4/Android_Yakssok_ver.1">
                                     <img className="Project__Title__img" src={android_icon} title="android" alt="android"/>
                                 </a>
                             </li>
                         }
                         {title === "Yakssok" && 
                             <li className="Project__Title__li">
-                                <a href="#" onClick={() => {alert('준비중입니다.');}}>
+                                {/* <a href="#" onClick={() => {alert('준비중입니다.');}}> */}
+                                <a href="https://github.com/ahahahahyeong/Yakssok_IOS">
                                     <img className="Project__Title__img" src={ios_icon} title="ios" alt="ios"/>
                                 </a>
                             </li>
