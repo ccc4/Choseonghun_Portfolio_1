@@ -5,6 +5,7 @@ import './Project.css';
 import github_icon from './images/github_icon.png'
 import android_icon from './images/android_icon.png'
 import ios_icon from './images/ios_icon.png'
+import gp_icon from './images/gp_icon.png'
 
 import Home_Yakssok from './images/Home_Yakssok.png';
 import Home_Library_web from './images/Home_Library_web.png';
@@ -17,6 +18,7 @@ function Project({title, githubURI, skills, link}) {
         <div className="Project">
             <div className="Project__Column">
                 {title === "Yakssok" && 
+                // title === "Yakssok" 이면 아래 내용 실행한다는 뜻
                     <a href={link}>
                         <img className="Project__Thumbnail" src={Home_Yakssok} title={title} alt={title}/>
                     </a>
@@ -49,7 +51,7 @@ function Project({title, githubURI, skills, link}) {
                                 <img className="Project__Title__img" src={github_icon} title="github" alt="github"/>
                             </a>
                         </li>
-                        {/* Yakssok -> 안드로이드, iOS 다운링크 걸어주기. iOS 는 다운불가.. */}
+                        {/* Yakssok -> 안드로이드, iOS github 걸어주기.*/}
                         {title === "Yakssok" && 
                             <li className="Project__Title__li">
                                 {/* <a href="#" onClick={() => {alert('준비중입니다.');}}> */}
@@ -63,6 +65,13 @@ function Project({title, githubURI, skills, link}) {
                                 {/* <a href="#" onClick={() => {alert('준비중입니다.');}}> */}
                                 <a href="https://github.com/ahahahahyeong/Yakssok_IOS">
                                     <img className="Project__Title__img" src={ios_icon} title="ios" alt="ios"/>
+                                </a>
+                            </li>
+                        }
+                        {title === "Yakssok" && 
+                            <li className="Project__Title__li">
+                                <a href="https://docs.google.com/presentation/d/1qAHeZQ834pUY7LsD2o5ikHyoUpFyUFZWdlkDTTe2NN8/edit?usp=sharing">
+                                    <img className="Project__Title__img" src={gp_icon} title="Google Presentation" alt="Google Presentation"/>
                                 </a>
                             </li>
                         }

@@ -1,13 +1,26 @@
 .Projects {
-    padding:50px;
+    padding:5vh 50px 5vh 50px;
+}
+
+.Projects__Title {
+    padding: 0 0 50px 40px;
+}
+
+.Projects__Title strong{
+    font-size: 40px;
+    padding: 5px;
+    border-bottom: 2px solid black;
+}
+
+.Projects_Contents {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    font-size:14px;
+    font-size:18px;
     height: 80vh;
 }
 
-.Projects--loading{
+.Projects_Contents--loading{
     display: flex;
     justify-content: center;
     align-items: center;
