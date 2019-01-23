@@ -24,19 +24,19 @@ self.__precacheManifest = [
     "url": "/Choseonghun_Portfolio_1/static/js/runtime~main.a6ac0212.js"
   },
   {
-    "revision": "837247b3b77f30a4f380",
-    "url": "/Choseonghun_Portfolio_1/static/js/main.837247b3.chunk.js"
+    "revision": "22854f1f9dc4d397677c",
+    "url": "/Choseonghun_Portfolio_1/static/js/main.22854f1f.chunk.js"
   },
   {
-    "revision": "6ad0d733982fa6cf5d9c",
-    "url": "/Choseonghun_Portfolio_1/static/js/1.6ad0d733.chunk.js"
+    "revision": "f4e8b4fb1af8072a2f06",
+    "url": "/Choseonghun_Portfolio_1/static/js/1.f4e8b4fb.chunk.js"
   },
   {
-    "revision": "837247b3b77f30a4f380",
-    "url": "/Choseonghun_Portfolio_1/static/css/main.4c9db74a.chunk.css"
+    "revision": "22854f1f9dc4d397677c",
+    "url": "/Choseonghun_Portfolio_1/static/css/main.a51854f4.chunk.css"
   },
   {
-    "revision": "8ab7f6462ff4cc24c6e6d083d72bdcdb",
+    "revision": "66906b113c80994474d93403e84aca74",
     "url": "/Choseonghun_Portfolio_1/index.html"
   }
 ];
