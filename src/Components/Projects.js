@@ -65,7 +65,7 @@ class Projects extends Component {
         return(
             <div class="Projects">
                 <div className="Projects__Title">
-                    <strong>Projects</strong>
+                    <strong>Projects-</strong>
                 </div>
                 <div className={projects ? "Projects_Contents" : "Projects_Contents--loading"}>
                 {projects ? this._renderProjects() : "Loading...."}
